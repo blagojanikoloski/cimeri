@@ -1,0 +1,103 @@
+.findapartments-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #adadad;
+}
+.findapartments-container1 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.findapartments-container2 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.findapartments-text {
+  font-size: 64px;
+  align-self: center;
+  margin-top: var(--dl-space-space-fourunits);
+  text-align: center;
+}
+.findapartments-text03 {
+  font-size: 64px;
+  align-self: center;
+  margin-top: var(--dl-space-space-fourunits);
+  text-align: center;
+}
+.findapartments-text06 {
+  padding-top: var(--dl-space-space-twounits);
+}
+.findapartments-textinput {
+  background-color: var(--dl-color-gray-900);
+}
+.findapartments-text07 {
+  padding-top: var(--dl-space-space-twounits);
+}
+.findapartments-textinput1 {
+  background-color: var(--dl-color-gray-900);
+}
+.findapartments-text08 {
+  padding-top: var(--dl-space-space-twounits);
+}
+.findapartments-textinput2 {
+  background-color: var(--dl-color-gray-900);
+}
+.findapartments-button {
+  width: 323px;
+  height: 85px;
+  font-size: 25px;
+  align-self: center;
+  margin-top: var(--dl-space-space-sixunits);
+  text-align: center;
+  border-width: 5px;
+  text-transform: uppercase;
+  background-color: var(--dl-color-gray-700);
+}
+.findapartments-button1 {
+  width: 170px;
+  height: 55px;
+  font-size: 25px;
+  align-self: center;
+  margin-top: var(--dl-space-space-sixunits);
+  text-align: center;
+  border-width: 5px;
+  padding-right: 0px;
+  text-transform: uppercase;
+  background-color: var(--dl-color-gray-700);
+}
+@media(max-width: 991px) {
+  .findapartments-text {
+    text-align: center;
+  }
+  .findapartments-text03 {
+    text-align: center;
+  }
+}
+@media(max-width: 767px) {
+  .findapartments-text {
+    text-align: center;
+  }
+  .findapartments-text03 {
+    text-align: center;
+  }
+}
+@media(max-width: 479px) {
+  .findapartments-text {
+    text-align: center;
+  }
+  .findapartments-text03 {
+    text-align: center;
+  }
+}

@@ -1,0 +1,92 @@
+.liststudents-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #adadad;
+}
+.liststudents-container1 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.liststudents-container2 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.liststudents-text {
+  font-size: 64px;
+  align-self: center;
+  margin-top: var(--dl-space-space-fourunits);
+  text-align: center;
+}
+.liststudents-text03 {
+  font-size: 64px;
+  align-self: center;
+  margin-top: var(--dl-space-space-fourunits);
+  text-align: center;
+}
+.liststudents-list {
+  width: 556px;
+  height: 200px;
+
+
+}
+.liststudents-li {
+  height: 87px;
+  text-align: center;
+  line-height: 5;
+  border-color: var(--dl-color-gray-black);
+  border-width: 3px;
+  list-style-type: disc;
+  background-color: var(--dl-color-gray-900);
+  list-style-image: none;
+  list-style-position: outside;
+}
+
+.liststudents-button {
+  width: 170px;
+  height: 55px;
+  font-size: 25px;
+  align-self: center;
+  margin-top: var(--dl-space-space-sixunits);
+  text-align: center;
+  border-width: 5px;
+  padding-right: 0px;
+  text-transform: uppercase;
+  background-color: var(--dl-color-gray-700);
+}
+@media(max-width: 991px) {
+  .liststudents-text {
+    text-align: center;
+  }
+  .liststudents-text03 {
+    text-align: center;
+  }
+}
+@media(max-width: 767px) {
+  .liststudents-text {
+    text-align: center;
+  }
+  .liststudents-text03 {
+    text-align: center;
+  }
+}
+@media(max-width: 479px) {
+  .liststudents-text {
+    text-align: center;
+  }
+  .liststudents-text03 {
+    text-align: center;
+  }
+}

@@ -1,0 +1,103 @@
+.findroommates-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #adadad;
+}
+.findroommates-container1 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.findroommates-container2 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.findroommates-text {
+  font-size: 64px;
+  align-self: center;
+  margin-top: var(--dl-space-space-fourunits);
+  text-align: center;
+}
+.findroommates-text03 {
+  font-size: 64px;
+  align-self: center;
+  margin-top: var(--dl-space-space-fourunits);
+  text-align: center;
+}
+.findroommates-text06 {
+  padding-top: var(--dl-space-space-twounits);
+}
+.findroommates-textinput {
+  background-color: var(--dl-color-gray-900);
+}
+.findroommates-text07 {
+  padding-top: var(--dl-space-space-twounits);
+}
+.findroommates-textinput1 {
+  background-color: var(--dl-color-gray-900);
+}
+.findroommates-text08 {
+  padding-top: var(--dl-space-space-twounits);
+}
+.findroommates-textinput2 {
+  background-color: var(--dl-color-gray-900);
+}
+.findroommates-button {
+  width: 323px;
+  height: 85px;
+  font-size: 25px;
+  align-self: center;
+  margin-top: var(--dl-space-space-sixunits);
+  text-align: center;
+  border-width: 5px;
+  text-transform: uppercase;
+  background-color: var(--dl-color-gray-700);
+}
+.findroommates-button1 {
+  width: 170px;
+  height: 55px;
+  font-size: 25px;
+  align-self: center;
+  margin-top: var(--dl-space-space-sixunits);
+  text-align: center;
+  border-width: 5px;
+  padding-right: 0px;
+  text-transform: uppercase;
+  background-color: var(--dl-color-gray-700);
+}
+@media(max-width: 991px) {
+  .findroommates-text {
+    text-align: center;
+  }
+  .findroommates-text03 {
+    text-align: center;
+  }
+}
+@media(max-width: 767px) {
+  .findroommates-text {
+    text-align: center;
+  }
+  .findroommates-text03 {
+    text-align: center;
+  }
+}
+@media(max-width: 479px) {
+  .findroommates-text {
+    text-align: center;
+  }
+  .findroommates-text03 {
+    text-align: center;
+  }
+}

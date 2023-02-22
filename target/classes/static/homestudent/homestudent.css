@@ -1,0 +1,53 @@
+.homestudent-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #adadad;
+}
+.homestudent-text {
+  font-size: 64px;
+  align-self: center;
+  margin-top: var(--dl-space-space-fourunits);
+  text-align: center;
+}
+.homestudent-button {
+  width: 323px;
+  height: 85px;
+  font-size: 25px;
+  align-self: center;
+  margin-top: var(--dl-space-space-sixunits);
+  text-align: center;
+  border-width: 5px;
+  text-transform: uppercase;
+  background-color: var(--dl-color-gray-700);
+}
+.homestudent-button1 {
+  width: 323px;
+  height: 85px;
+  font-size: 25px;
+  align-self: center;
+  margin-top: var(--dl-space-space-sixunits);
+  text-align: center;
+  border-width: 5px;
+  text-transform: uppercase;
+  background-color: var(--dl-color-gray-700);
+}
+@media(max-width: 991px) {
+  .homestudent-text {
+    text-align: center;
+  }
+}
+@media(max-width: 767px) {
+  .homestudent-text {
+    text-align: center;
+  }
+}
+@media(max-width: 479px) {
+  .homestudent-text {
+    text-align: center;
+  }
+}

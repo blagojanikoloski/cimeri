@@ -1,0 +1,205 @@
+.postapartment-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #adadad;
+}
+.postapartment-container01 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.postapartment-container02 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.postapartment-text {
+  font-size: 64px;
+  align-self: center;
+  margin-top: var(--dl-space-space-fourunits);
+  text-align: center;
+}
+.postapartment-text03 {
+  font-size: 64px;
+  align-self: center;
+  margin-top: var(--dl-space-space-fourunits);
+  text-align: center;
+}
+.postapartment-container03 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.postapartment-container04 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.postapartment-text06 {
+  padding-top: var(--dl-space-space-twounits);
+}
+.postapartment-textinput {
+  background-color: var(--dl-color-gray-900);
+}
+.postapartment-container05 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.postapartment-container06 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.postapartment-text07 {
+  padding-top: var(--dl-space-space-twounits);
+}
+.postapartment-textinput1 {
+  background-color: var(--dl-color-gray-900);
+}
+.postapartment-container07 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.postapartment-container08 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.postapartment-text08 {
+  padding-top: var(--dl-space-space-twounits);
+}
+.postapartment-textinput2 {
+  background-color: var(--dl-color-gray-900);
+}
+.postapartment-container09 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.postapartment-container10 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.postapartment-text09 {
+  padding-top: var(--dl-space-space-twounits);
+}
+.postapartment-textinput3 {
+  background-color: var(--dl-color-gray-900);
+}
+.postapartment-container11 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.postapartment-container12 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.postapartment-text12 {
+  padding-top: var(--dl-space-space-twounits);
+}
+.postapartment-textinput4 {
+  background-color: var(--dl-color-gray-900);
+}
+.postapartment-container13 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.postapartment-container14 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.postapartment-text13 {
+  padding-top: var(--dl-space-space-twounits);
+}
+.postapartment-textinput5 {
+  background-color: var(--dl-color-gray-900);
+}
+.postapartment-text14 {
+  padding-top: var(--dl-space-space-twounits);
+}
+.postapartment-textinput6 {
+  background-color: var(--dl-color-gray-900);
+}
+.postapartment-button {
+  width: 323px;
+  height: 85px;
+  font-size: 25px;
+  align-self: center;
+  margin-top: var(--dl-space-space-sixunits);
+  text-align: center;
+  border-width: 5px;
+  text-transform: uppercase;
+  background-color: var(--dl-color-gray-700);
+}
+.postapartment-button1 {
+  width: 170px;
+  height: 55px;
+  font-size: 25px;
+  align-self: center;
+  margin-top: var(--dl-space-space-sixunits);
+  text-align: center;
+  border-width: 5px;
+  padding-right: 0px;
+  text-transform: uppercase;
+  background-color: var(--dl-color-gray-700);
+}
+@media(max-width: 991px) {
+  .postapartment-text {
+    text-align: center;
+  }
+  .postapartment-text03 {
+    text-align: center;
+  }
+}
+@media(max-width: 767px) {
+  .postapartment-text {
+    text-align: center;
+  }
+  .postapartment-text03 {
+    text-align: center;
+  }
+}
+@media(max-width: 479px) {
+  .postapartment-text {
+    text-align: center;
+  }
+  .postapartment-text03 {
+    text-align: center;
+  }
+}
