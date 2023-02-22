@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Cimeri</title>
+    <meta property="og:title" content="Cimeri" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link rel="stylesheet" href="/registerstudent/style.css" />
+  </head>
+  <body>
+    <div>
+      <link href="/registerstudent/registerstudent.css" rel="stylesheet" />
+
+      <div class="registerstudent-container">
+        <span class="registerstudent-text">
+          <span class="registerstudent-text01">ENTER REGISTER INFO:</span>
+          <br />
+        </span>
+
+        <div>
+        <form th:method="post" th:action="@{/registerstudent}">
+        <div class="registerstudent-container01">
+          <div class="registerstudent-container02">
+            <span>Name</span>
+            <input
+              type="text"
+              placeholder="Name"
+              class="registerstudent-textinput input"
+              id="ime"
+              name="ime"
+            />
+          </div>
+          <div class="registerstudent-container03">
+            <span>Surname</span>
+            <input
+              type="text"
+              placeholder="Surname"
+              class="registerstudent-textinput1 input"
+              id="prezime"
+              name="prezime"
+            />
+          </div>
+        </div>
+        <div class="registerstudent-container04">
+          <div class="registerstudent-container05">
+            <span>Password</span>
+            <input
+              type="password"
+              placeholder="Password"
+              class="registerstudent-textinput2 input"
+              id="password"
+              name="password"
+            />
+          </div>
+          <div class="registerstudent-container06">
+            <span>Username</span>
+            <input
+              type="text"
+              placeholder="Username"
+              class="registerstudent-textinput3 input"
+              id="username"
+              name="username"
+            />
+          </div>
+        </div>
+        <div class="registerstudent-container07">
+          <div class="registerstudent-container08">
+            <span>Phone Number</span>
+            <input
+              type="text"
+              placeholder="Phone Number"
+              class="registerstudent-textinput4 input"
+              id="phone_number"
+              name="phone_number"
+            />
+          </div>
+          <div class="registerstudent-container09">
+            <span>Email Adress</span>
+            <input
+              type="text"
+              placeholder="Email Adress"
+              class="registerstudent-textinput5 input"
+              id="email_address"
+              name="email_address"
+            />
+          </div>
+        </div>
+        <div class="registerstudent-container10">
+          <div class="registerstudent-container11" name="facultyid" id="facultyid">
+            <span>Faculty</span>
+            <select class="registerstudent-select" name="facultyid" id="facultyid">
+
+              <option th:each="faculty : ${faculties}" th:value="${faculty.facultyid}" th:name="facultyid" th:text="${faculty.facultyname}">
+              </option>
+
+            </select>
+          </div>
+          <div class="registerstudent-container12">
+            <div class="registerstudent-container13"><span>Gender</span></div>
+            <select class="registerstudent-select" name="gender" id="gender">
+              <option value="male" selected="">Male</option>
+              <option value="female">Female</option>
+            </select>
+          </div>
+        </div>
+        <button class="registerstudent-button button">SUBMIT</button>
+
+      </div>
+      </form>
+        <th:block th:if="${error}==true">
+          <span class="error" th:text="${errorMsg}"></span>
+        </th:block>
+      </div>
+    </div>
+
+
+
+
+
+  </body>
+</html>

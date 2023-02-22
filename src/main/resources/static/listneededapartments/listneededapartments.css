@@ -1,0 +1,90 @@
+.listneededapartments-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #adadad;
+}
+.listneededapartments-container1 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.listneededapartments-container2 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.listneededapartments-text {
+  font-size: 64px;
+  align-self: center;
+  margin-top: var(--dl-space-space-fourunits);
+  text-align: center;
+}
+.listneededapartments-text03 {
+  font-size: 64px;
+  align-self: center;
+  margin-top: var(--dl-space-space-fourunits);
+  text-align: center;
+}
+.listneededapartments-list {
+  width: 900px;
+  height: 470px;
+  list-style-position: outside;
+}
+.listneededapartments-li {
+  height: 250px;
+  text-align: center;
+  line-height: 5;
+  border-color: var(--dl-color-gray-black);
+  border-width: 3px;
+  list-style-type: disc;
+  background-color: var(--dl-color-gray-900);
+  list-style-image: none;
+  list-style-position: outside;
+}
+.listneededapartments-button {
+  width: 170px;
+  height: 55px;
+  font-size: 25px;
+  align-self: center;
+  margin-top: var(--dl-space-space-sixunits);
+  text-align: center;
+  border-width: 5px;
+  padding-right: 0px;
+  text-transform: uppercase;
+  background-color: var(--dl-color-gray-700);
+}
+@media(max-width: 991px) {
+  .listneededapartments-text {
+    text-align: center;
+  }
+  .listneededapartments-text03 {
+    text-align: center;
+  }
+}
+@media(max-width: 767px) {
+  .listneededapartments-text {
+    text-align: center;
+  }
+  .listneededapartments-text03 {
+    text-align: center;
+  }
+}
+@media(max-width: 479px) {
+  .listneededapartments-text {
+    text-align: center;
+  }
+  .listneededapartments-text03 {
+    text-align: center;
+  }
+}

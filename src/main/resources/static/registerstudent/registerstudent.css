@@ -1,0 +1,202 @@
+.registerstudent-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #adadad;
+}
+.registerstudent-text {
+  font-size: 64px;
+  align-self: center;
+  margin-top: var(--dl-space-space-fourunits);
+  text-align: center;
+}
+.registerstudent-container01 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-threeunits);
+  justify-content: center;
+}
+.registerstudent-container02 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.registerstudent-textinput {
+  color: var(--dl-color-gray-black);
+  border-width: 3px;
+  background-color: var(--dl-color-gray-900);
+}
+.registerstudent-container03 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.registerstudent-textinput1 {
+  color: var(--dl-color-gray-black);
+  border-width: 3px;
+  background-color: var(--dl-color-gray-900);
+}
+.registerstudent-container04 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-threeunits);
+  justify-content: center;
+}
+.registerstudent-container05 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.registerstudent-textinput2 {
+  color: var(--dl-color-gray-black);
+  border-width: 3px;
+  background-color: var(--dl-color-gray-900);
+}
+.registerstudent-container06 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.registerstudent-textinput3 {
+  color: var(--dl-color-gray-black);
+  border-width: 3px;
+  background-color: var(--dl-color-gray-900);
+}
+.registerstudent-container07 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-threeunits);
+  justify-content: center;
+}
+.registerstudent-container08 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.registerstudent-textinput4 {
+  color: var(--dl-color-gray-black);
+  border-width: 3px;
+  background-color: var(--dl-color-gray-900);
+}
+.registerstudent-container09 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.registerstudent-textinput5 {
+  color: var(--dl-color-gray-black);
+  border-width: 3px;
+  background-color: var(--dl-color-gray-900);
+}
+.registerstudent-container10 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-threeunits);
+  justify-content: center;
+}
+.registerstudent-container11 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.registerstudent-textinput6 {
+  color: var(--dl-color-gray-black);
+  border-width: 3px;
+  background-color: var(--dl-color-gray-900);
+}
+.registerstudent-container12 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.registerstudent-container13 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.registerstudent-select {
+  width: 259px;
+  height: 41px;
+  border-color: var(--dl-color-gray-black);
+  border-width: 3px;
+  border-radius: var(--dl-radius-radius-radius4);
+  background-color: var(--dl-color-gray-900);
+}
+.registerstudent-button {
+  width: 323px;
+  height: 85px;
+  font-size: 25px;
+  align-self: center;
+  margin-top: var(--dl-space-space-sixunits);
+  text-align: center;
+  border-width: 5px;
+  text-transform: uppercase;
+  background-color: var(--dl-color-gray-700);
+}
+@media(max-width: 991px) {
+  .registerstudent-text {
+    text-align: center;
+  }
+  .registerstudent-text01 {
+    text-align: center;
+  }
+}
+@media(max-width: 767px) {
+  .registerstudent-text {
+    text-align: center;
+  }
+  .registerstudent-text01 {
+    text-align: center;
+  }
+}
+@media(max-width: 479px) {
+  .registerstudent-text {
+    text-align: center;
+  }
+  .registerstudent-text01 {
+    text-align: center;
+  }
+}
